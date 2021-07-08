@@ -41,12 +41,33 @@ $\{\varepsilon_i \}$ é uma série que obedece o seguinte parâmetro de desordem
 $$
 y_i = \sum_{j=1}^N z_j(1+|i-j|/A)^{-2},
 $$
-
 em que $y_j$ é um número aleatório uniformemente distribuido no intervalo 
 $\left[ -1,1 \right]$ e A é um parâmetro de ajuste.
 
+<p>
 
+O arquivo part_x_N.py relaciona a participação $\xi$ do sistema com o tamanho $N$ da cadeia de átomos. A relação é realizada para cada grau $A$ de desordem.
+</p>
+<p>
+Para executar o arquivo python baixe os arquivos, requerements.txt e part_x_N.py, abra o terminal crie um ambiente virtual e use o comando:
+
+
+```
+python3 -m pip install -r requirements.txt
+```
+
+em seguida é só rodar o código part_x_N.py com o comando:
+
+```
+python3 part_x_N.py
+```
+Um gráfico pode ser gerado no python, no entando, para fins de organização, gerei arquivos .dat para que pudéssemos gerar o gráfico no *XmGrace*
+
+<p align="center">
+<br>
+<img src="part_x_n.png" width=400  height="400"/>
+<br>
+</p>
+</p>
 </div>
-
-
-[P.W. Anderson](https://pt.wikipedia.org/wiki/Philip_Warren_Anderson)
+[Momento da Física](https://www.instagram.com/momentodafisica/)
