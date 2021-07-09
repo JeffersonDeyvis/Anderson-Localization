@@ -64,10 +64,9 @@ python3 part_x_N.py
 Um gráfico pode ser gerado no python, no entando, para fins de organização, gerei arquivos .dat para que pudéssemos gerar o gráfico no *XmGrace*
 
 <p align="center">
-<br>
-<img src="img/part_x_n.png" width=400  height="400"/>
-<br>
+<img width="460" height="300" src="img/xmgrace.gif">
 </p>
 </p>
 </div>
+
 [Momento da Física](https://www.instagram.com/momentodafisica/)
