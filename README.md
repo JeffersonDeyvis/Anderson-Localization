@@ -11,7 +11,7 @@ Uma forma de estudar esses sistemas é calcular quantidades que medem o grau de 
 
 <p align="center">
 <br>
-<img src="canalSimples.png"/>
+<img src="img/canalSimples.png"/>
 <br>
 </p>
 
@@ -65,7 +65,7 @@ Um gráfico pode ser gerado no python, no entando, para fins de organização, g
 
 <p align="center">
 <br>
-<img src="part_x_n.png" width=400  height="400"/>
+<img src="img/part_x_n.png" width=400  height="400"/>
 <br>
 </p>
 </p>
