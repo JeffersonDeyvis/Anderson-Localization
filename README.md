@@ -48,7 +48,7 @@ $\left[ -1,1 \right]$ e A é um parâmetro de ajuste. Adicionarei um repositóri
 ## Manipulando os arquivos:
 
 O arquivo part_x_N.py relaciona a participação $\xi$ do sistema com o tamanho $N$ da cadeia de átomos. A relação é realizada para cada grau $A$ de desordem.
-Para executar o arquivo python baixe os arquivos, requerements.txt e part_x_N.py, abra o terminal crie um ambiente virtual e use o comando:
+Para executar o arquivo python baixe os arquivos, requirements.txt e part_x_N.py, abra o terminal crie um ambiente virtual e use o comando:
 
 ```
 python3 -m pip install -r requirements.txt
