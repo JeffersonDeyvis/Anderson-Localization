@@ -8,6 +8,7 @@ Um sistema com potencial com alto grau de desordem apresenta estados eletrônico
 <p>
 Uma forma de estudar esses sistemas é calcular quantidades que medem o grau de localização de autoestados do <a class="gat" href="https://pt.wikipedia.org/wiki/Sistema_hamiltoniano" title="sistema hamiltoniano" data-cat="related-question">hamiltoniano</a> do sistema como a participação: <em>número de sítios que efetivamente participam do estado eletrônico.</em> Um modelo esquemático que representa o sistema é:
 </p>
+</div>
 
 <p align="center">
 <br>
@@ -15,17 +16,18 @@ Uma forma de estudar esses sistemas é calcular quantidades que medem o grau de 
 <br>
 </p>
 
+um conjunto de N átomos, cada átomo interage com o seu vizinho, apresentando uma *energia de hopping* T.
+
 ## O hamiltoniano do sistema:
-<p>
 
 $$
 \hat{H_{c}} = \sum_{n=1}^{N} \ket{n}\bra{n}\varepsilon_n + 
      \sum_{n=1}^{N} \left(\ket{n}\bra{n+1} + c.c \right)T
 $$
-em que  $\varepsilon_i$ é a energia potencial oriunda do potencial de ionização e $T$ é o termo cinético e $N$ é o tamanho da cadeia.
-</p>
 
-<p>
+em que  $\varepsilon_i$ é a energia potencial oriunda do potencial de ionização e $T$ é o termo cinético e $N$ é o tamanho da cadeia.
+
+## Fenômenos de Localização:
 
 Nós queremos encontrar os autoestados do hamiltoniano e estudar a dinâmica dos autoestados a partir do operador de evolução temporal do sistema e calcular a participação $\xi$ a partir da expressão:
 
@@ -33,7 +35,6 @@ $$
 \displaystyle{\xi = \frac{1}{\sum_n |f_n|^4}}
 $$
 
-</p>
 
 Estamos interessados em estudar esse sistema considerando a série 
 $\{\varepsilon_i \}$ é uma série que obedece o seguinte parâmetro de desordem:
@@ -42,15 +43,12 @@ $$
 y_i = \sum_{j=1}^N z_j(1+|i-j|/A)^{-2},
 $$
 em que $y_j$ é um número aleatório uniformemente distribuido no intervalo 
-$\left[ -1,1 \right]$ e A é um parâmetro de ajuste.
+$\left[ -1,1 \right]$ e A é um parâmetro de ajuste. Adicionarei um repositório com o código do cálculo da correlação dda sequência $\{y_i\}$ com uma explicação mais detalhada da sequência
 
-<p>
+## Manipulando os arquivos:
 
 O arquivo part_x_N.py relaciona a participação $\xi$ do sistema com o tamanho $N$ da cadeia de átomos. A relação é realizada para cada grau $A$ de desordem.
-</p>
-<p>
 Para executar o arquivo python baixe os arquivos, requerements.txt e part_x_N.py, abra o terminal crie um ambiente virtual e use o comando:
-
 
 ```
 python3 -m pip install -r requirements.txt
@@ -66,7 +64,5 @@ Um gráfico pode ser gerado no python, no entando, para fins de organização, g
 <p align="center">
 <img width="460" height="300" src="img/xmgrace.gif">
 </p>
-</p>
-</div>
 
 [Momento da Física](https://www.instagram.com/momentodafisica/)
