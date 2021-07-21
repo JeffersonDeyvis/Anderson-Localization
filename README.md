@@ -44,7 +44,7 @@ Estamos interessados em estudar esse sistema considerando a série
 <img src="img/autocorr.svg">
 </div>
 
-em que $y_j$ é um número aleatório uniformemente distribuido no intervalo 
+em que <img src="img/y_i.svg"> é um número aleatório uniformemente distribuido no intervalo 
 <img src="img/intervalo.svg"> e A é um parâmetro de ajuste. Adicionarei um repositório com o código do cálculo da correlação dda sequência <img src="img/y_i.svg"> com uma explicação mais detalhada da sequência
 
 ## Manipulando os arquivos:
