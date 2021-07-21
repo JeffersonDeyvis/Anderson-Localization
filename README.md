@@ -26,7 +26,11 @@ um conjunto de N átomos, cada átomo interage com o seu vizinho, apresentando u
 </div>
 
 em que  <img src="img/e_i.svg"> é a energia potencial oriunda do potencial de ionização e 
-T é o termo cinético e N é o tamanho da cadeia.
+T é o termo cinético e N é o tamanho da cadeia. A interação entre sítios ocorre apenas entre os primeiros vizinhos. A representação matricial do operador hamiltoniano é:
+
+<div align='center'>
+<img src="img/matrixHamiltonian.svg">
+</div>
 
 ## Fenômenos de Localização:
 
